@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 1rem;
+    box-shadow: 5px 5px 20px ;
+    background:black;
+
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight:800;
+    color: rgb(214, 159, 7) !important;
+
+    }
+    #navbarSupportedContent a:hover{
+        color: #eeb108;
+        border-bottom:2px rgb(214, 164, 25);
+    }
+    #navbarSupportedContent button{
+        background: rgb(214, 164, 25);
+        width: 5rem;
+        border-radius: 15px;
+    }
+
+    section h1{
+        width: 100%;
+        min-height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: size 111px;;
+    }
+
+
+    /****Home*****/
+
+    #Home{
+        background: url(bg.jffi);
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: baseline;
+    
+    }
+    #Home p{
+        font-size: 16px;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #Home.input-group{
+        width: 40%;
+        height: 45px;
+        font-size: 111px;
+        justify-content:center;
+        display: flex;
+    }
+    .signin{
+        background:  #eeb108 !important;
+        color:black;
+        display:flex;
+        display: center;
+        justify-content: center;
+    
+    }
+    /*****About*****/
+#About{
+    background-color: #f7f4ee;
+}
+#About h1{
+    font-weight:800px ;
+
+    
+}
+    
+#Product{
+    background-color:#f7f4ee;
+display: flex;
+justify-content: center;
+}
+
+.card{
+    background-color: aliceblue !important;
+    border: none !important;x`
+}
+    
